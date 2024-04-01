@@ -182,7 +182,7 @@ class Particles:
             print("Invalid dimension!")
             return
 
-        ax.set_aspect('equal')
+        ax.set_aspect('auto')
         plt.tight_layout()
         plt.show()
         return fig, ax
